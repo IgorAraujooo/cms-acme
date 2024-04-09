@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CMS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="add.js"></script>
+    <script src="filme.js"></script>
+</head>
+
+<body class="text-white">
+    <div class="container mx-auto">
+        <h1 class="text-3xl font-bold mb-4 text-center">Cadastro de Filme</h1>
+        <div class="max-w-6xl mx-auto bg-opacity-20 bg-gray-700 p-8 rounded-lg shadow-md">
+            <form action="#" method="POST" class="grid grid-cols-2 gap-4">
+                <div class="col-span-2 mb-4">
+                    <label for="photo" class="block text-sm font-semibold text-white">Foto</label>
+                    <input type="text" id="title" name="photo" class="mt-1 p-2 w-full bg-gray-800 rounded-md">
+                </div>
+                <div class="mb-4">
+                    <label for="title" class="block text-sm font-semibold text-white">Título do Filme</label>
+                    <input type="text" id="title" name="title" class="mt-1 p-2 w-full bg-gray-800 rounded-md">
+                </div>
+                <div class="mb-4">
+                    <label for="genre" class="block text-sm font-semibold text-white">Gênero</label>
+                    <input type="text" id="genre" name="genre" class="mt-1 p-2 w-full bg-gray-800 rounded-md">
+                </div>
+                <div class="mb-4">
+                    <label for="release_year" class="block text-sm font-semibold text-white">Ano de Lançamento</label>
+                    <input type="text" id="release_year" name="release_year" class="mt-1 p-2 w-full bg-gray-800 rounded-md">
+                </div>
+                <div class="mb-4">
+                    <label for="director" class="block text-sm font-semibold text-white">Diretor</label>
+                    <input type="text" id="director" name="director" class="mt-1 p-2 w-full bg-gray-800 rounded-md">
+                </div>
+                <div class="col-span-2 mb-4">
+                    <label for="description" class="block text-sm font-semibold text-white">Descrição</label>
+                    <textarea id="description" name="description" class="mt-1 p-2 w-full h-40 bg-gray-800 rounded-md"></textarea>
+                </div>
+                <div class="col-span-2 flex justify-center">
+                    <button type="submit" class="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-md">Cadastrar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
