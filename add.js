@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const success = await postFilme(filme);
             if (success) {
                 alert('Filme cadastrado com sucesso!');
-                // Você pode adicionar qualquer ação adicional após o cadastro bem-sucedido, como redirecionar para outra página.
+              
             } else {
                 alert('Erro ao cadastrar o filme. Por favor, tente novamente.');
             }
